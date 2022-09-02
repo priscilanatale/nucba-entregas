@@ -14,81 +14,76 @@
   </head>
   <body>
     <h1>Formulario de registro</h1>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input
+        type="text"
+        id="nombre"
+      />
 
-    <label for="nombre">Nombre:</label>
-    <input
-      type="text"
-      id="nombre"
-    />
+      <br /><br />
 
-    <br />
-    <br />
+      <label for="apellido">Apellido:</label>
+      <input
+        type="text"
+        id="apellido"
+      />
 
-    <label for="apellido">Apellido:</label>
-    <input
-      type="text"
-      id="apellido"
-    />
+      <br /><br />
 
-    <br />
-    <br />
+      Modalidad de Cursada:
 
-    Modalidad de Cursada:
+      <input
+        type="radio"
+        id="On-Demand"
+        name="modalidad"
+      />
+      <label for="On-Demand">On-Demand</label>
 
-    <input
-      type="radio"
-      id="On-Demand"
-      name="modalidad"
-    />
-    <label for="On-Demand">On-Demand</label>
+      <input
+        type="radio"
+        id="En vivo"
+        name="modalidad"
+      />
+      <label for="En vivo">En vivo</label>
 
-    <input
-      type="radio"
-      id="En vivo"
-      name="modalidad"
-    />
-    <label for="En vivo">En vivo</label>
+      <br /><br />
 
-    <br />
-    <br />
+      <label for="correo">Correo:</label>
+      <input
+        type="email"
+        id="correo"
+      />
 
-    <label for="correo">Correo:</label>
-    <input
-      type="email"
-      id="correo"
-    />
+      <br /><br />
 
-    <br />
-    <br />
+      <input
+        type="checkbox"
+        id="info"
+      />
+      <label for="info"
+        >Deseo recibir información sobre nuevos posteos en la plataforma de
+        Nucba.</label
+      >
 
-    <input
-      type="checkbox"
-      id="info"
-    />
-    <label for="info"
-      >Deseo recibir información sobre nuevos posteos en la plataforma de
-      Nucba.</label
-    >
+      <br /><br />
 
-    <br />
-    <br />
+      <input
+        type="checkbox"
+        id="condiciones"
+        required
+      />
+      <label for="condiciones"
+        >Declaro que leí los términos y condiciones y estoy listo para
+        convertirme en desarrollador web Full Stack.</label
+      >
 
-    <input
-      type="checkbox"
-      id="condiciones"
-      required
-    />
-    <label for="condiciones"
-      >Declaro que leí los términos y condiciones y estoy listo para convertirme
-      en desarrollador web Full Stack.</label
-    >
+      <br /><br />
 
-    <br />
-    <br />
-
-    <input
-      type="submit"
-      value="Enviar"
-    />
+      <input
+        type="submit"
+        value="Enviar"
+      />
+    </form>
   </body>
 </html>
